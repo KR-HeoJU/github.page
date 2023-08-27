@@ -9,7 +9,6 @@ header {
   display: flex;
   margin-right: 20px;
   align-items: center;
-  margin-top: 5px;
   margin-left: 5%;
   height: 80px;
 }
@@ -43,7 +42,6 @@ header > ul > li:hover {
 main {
   margin-left: 10%;
   margin-top: 10%;
-  margin-bottom: 10%;
 }
 
 .title {
@@ -55,7 +53,7 @@ main {
 }
 
 .subtitle {
-  height: 40px;
+  height: 50px;
 }
 
 p {
@@ -79,25 +77,33 @@ main ul li strong {
   margin-right: 10px;
 }
 
+.trailer {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  rotate: -90deg;
+  margin-top: 8px;
+}
+
 .arrow {
   position: absolute;
   top: 50%;
   right: 16px;
-  transform: translateY(-50%);
-  font-size: 32px;
-  animation: modifyArrow 0.5s linear infinite;
+  transform: translateY(-50%) scaleY(2);
+  font-size: 20px;
+  animation: modifyArrow 1s linear infinite;
+  rotate: 180deg;
 }
 
 @keyframes modifyArrow {
   50% {
-    transform: translate(16px, -50%);
+    transform: translate(8px, -50%) scaleY(2);
   }
 }
 
 footer {
   height: 140px;
   margin-left: 7%;
-  margin-bottom: 3%;
 }
 
 footer ul {
@@ -107,9 +113,9 @@ footer ul {
 footer ul li {
   background-repeat: no-repeat;
   background-size: contain;
-  width: 20px;
-  height: 20px;
-  margin-right: 5%;
+  width: 50px;
+  height: 50px;
+  margin-right: 2%;
 }
 
 .facebook {
