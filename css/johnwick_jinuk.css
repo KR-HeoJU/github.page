@@ -7,6 +7,7 @@ body {
     url(../img/jw1.jpeg);
   background-size: cover;
   color: white;
+  zoom: 150%;
 }
 
 header {
@@ -46,7 +47,7 @@ header > ul > li:hover {
 
 main {
   margin-left: 150px;
-  height: calc(100vh - 150px);
+  height: calc(72.3vh - 225px);
   width: 90%;
 }
 
