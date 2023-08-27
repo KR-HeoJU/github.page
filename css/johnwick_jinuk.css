@@ -79,6 +79,21 @@ main ul li strong {
   margin-right: 10px;
 }
 
+.arrow {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  transform: translateY(-50%);
+  font-size: 32px;
+  animation: modifyArrow 0.5s linear infinite;
+}
+
+@keyframes modifyArrow {
+  50% {
+    transform: translate(16px, -50%);
+  }
+}
+
 footer {
   height: 140px;
   margin-left: 7%;
