@@ -77,6 +77,15 @@ main ul li strong {
   margin-right: 10px;
 }
 
+button {
+  border-radius: 20px 20px;
+  border-color: white;
+  background-color: rgb(00, 00, 00, 0);
+  color: white;
+  padding: 10px 30px;
+  margin-right: 20px;
+}
+
 .trailer {
   position: absolute;
   top: 50%;
@@ -102,7 +111,6 @@ main ul li strong {
 }
 
 footer {
-  height: 140px;
   margin-left: 7%;
 }
 
