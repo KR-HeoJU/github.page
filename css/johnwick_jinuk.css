@@ -182,6 +182,9 @@ footer ul li {
   body {
     background-position-y: 27%;
   }
+  main {
+    height: calc(100vh - 220px);
+  }
 }
 
 @media screen and (max-height: 1000px) {
@@ -193,10 +196,9 @@ footer ul li {
   }
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
   main {
     width: 80%;
-    height: 80%;
   }
   main div:nth-of-type(2) {
     display: none;
@@ -216,16 +218,21 @@ footer ul li {
   }
 }
 
+@media screen and (max-width: 1300px) {
+  main {
+    width: 70%;
+  }
+}
 @media screen and (max-width: 1200px) {
   header .material-icons {
     display: none;
   }
-  header {
+  header ul {
     display: none;
   }
   main {
-    width: 100vw;
-    height: 100vh;
+    width: 50%;
+    height: 70%;
     margin: auto;
   }
   main .title {
@@ -237,6 +244,9 @@ footer ul li {
   }
 
   main button {
+    display: none;
+  }
+  footer {
     display: none;
   }
 }
